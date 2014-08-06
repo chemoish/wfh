@@ -1,0 +1,141 @@
+/**
+ * GENERAL
+ */
+
+body
+{
+  background-color: #e6ffff;
+  color:            #454545;
+  font-family:      'Lato', sans-serif;
+  font-size:        14px;
+  padding-bottom:   60px;
+}
+
+a
+{
+  color:           rgba(0, 0, 0, .2);
+  text-decoration: none;
+}
+
+a:hover
+{
+  color: rgba(0, 0, 0, .4);
+}
+
+/**
+ * LAYOUT
+ */
+
+#main
+{
+  margin:    0 auto;
+  max-width: 600px
+}
+
+header
+{
+  margin-bottom: 40px;
+  text-align:    center;
+}
+
+header .title
+{
+  font-size:     4rem;
+  margin-bottom: 5px;
+}
+
+header .subtitle
+{
+  font-size: 1.5rem;
+  margin:    0;
+}
+
+footer
+{
+  bottom:     20px;
+  left:       0;
+  position:   fixed;
+  right:      0;
+  text-align: center;
+}
+
+/**
+ * CARD
+ */
+
+#card
+{
+  background-color: #fff;
+  box-shadow:       0 2px 5px 1px rgba(0, 0, 0, .2);
+  padding:          10px;
+}
+
+.card-content
+{
+  background-color: #d1e7f4;
+  height:           280px;
+  padding:          10px;
+  position:         relative;
+}
+
+.card-message
+{
+  font-size:     2rem;
+  margin:        0;
+  padding-right: 175px;
+  position:      relative;
+  z-index:       1;
+}
+
+.card-image
+{
+  position: absolute;
+  bottom:   0;
+  opacity:  .45;
+  right:    0;
+}
+
+/**
+ * ACTIONS
+ */
+
+.actions
+{
+  list-style: none;
+  margin:     20px 0;
+  padding:    0;
+  text-align: center;
+}
+
+.card-cycle
+{
+  font-size: 2rem;
+}
+
+@media only screen and (max-width: 64em) {
+  body
+  {
+    padding-left:  20px;
+    padding-right: 20px;
+  }
+
+  header .title
+  {
+    font-size: 3rem;
+  }
+
+  header .subtitle
+  {
+    font-size: 1rem;
+  }
+
+  .card-message
+  {
+    font-size: 1.75rem;
+  }
+
+  .card-cycle
+  {
+    font-size: 1.5rem;
+  }
+}
