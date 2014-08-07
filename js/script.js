@@ -35,21 +35,21 @@ WFH.constant('excuseConstant', [{
 }]);
 
 WFH.constant('imageConstant', [{
-  title: 'Claus',
-  src:   'img/claus.png'
+  src:   'img/claus.png',
+  title: 'Claus'
 }, {
-  title: 'Horse',
-  src:   'img/horse.png'
+  src:   'img/horse.png',
+  title: 'Horse'
 }, {
-  title: 'Kite',
-  src:   'img/kite.png'
+  src:   'img/kite.png',
+  title: 'Kite'
 }, {
-  title: 'Pirate',
-  src:   'img/pirate.png'
+  src:   'img/pirate.png',
+  title: 'Pirate'
 }, {
-  title: 'Skydiving',
-  src:   'img/skydiving.png'
+  src:   'img/skydiving.png',
+  title: 'Skydiving'
 }, {
-  title: 'Work',
-  src:   'img/work.png'
+  src:   'img/work.png',
+  title: 'Work'
 }]);
