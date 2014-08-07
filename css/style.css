@@ -80,11 +80,13 @@ footer
 
 .card-message
 {
-  font-size:     2rem;
-  margin:        0;
-  padding-right: 175px;
-  position:      relative;
-  z-index:       1;
+  font-size:      2rem;
+  margin:         0;
+  padding-right:  175px;
+  position:       relative;
+  text-transform: capitalize;
+  z-index:        1;
+}
 
 .card-author
 {
