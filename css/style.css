@@ -85,6 +85,19 @@ footer
   padding-right: 175px;
   position:      relative;
   z-index:       1;
+
+.card-author
+{
+  bottom:    0;
+  color:     rgba(0, 0, 0, .45);
+  font-size: 1.5rem;
+  position:  absolute;
+}
+
+.card-author:before
+{
+  content: '–';
+  margin-right: 5px;
 }
 
 .card-image
@@ -132,6 +145,11 @@ footer
   .card-message
   {
     font-size: 1.75rem;
+  }
+
+  .card-author
+  {
+    font-size: 1.25rem;
   }
 
   .card-cycle
