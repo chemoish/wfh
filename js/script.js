@@ -44,8 +44,74 @@ WFH.controller('WfhController', [
 ]);
 
 WFH.constant('excuseConstant', [{
+  author: 'Adrian',
+  message: "need to head home really quick, will be wfh for the rest of the day"
+}, {
+  author: 'Aiman',
+  message: "WFH in the morning, avoiding traffic."
+}, {
+  author: 'Byron',
+  message: "disease-ridden, but lucid. WFH"
+}, {
   author: 'Byron',
   message: "WFH Stubbed my toe on my bed today"
+}, {
+  author: 'Carey',
+  message: "I will be working from home though because I have a wedding to go to in the after noon."
+}, {
+ author: 'Carlos',
+ message: "wfh today, feeling worse"
+}, {
+ author: 'Carlos',
+ message: "WFH today, have some unexpected errands to run."
+}, {
+ author: 'Caroline',
+ message: "My nanny is sick , leaving at 1Pm and WFH"
+}, {
+ author: 'Chris',
+ message: "wfh today, still sick"
+}, {
+  author: 'Chris',
+  message: "Just a heads up I am out sick today but am working from home"
+}, {
+  author: 'Chris',
+  message: "still sick, working from home today."
+}, {
+  author: 'Christian',
+  message: "FYI, ill be working from home tomorrow. my last deep cleaning dentist appointment. *much rejoicing*"
+}, {
+ author: 'Eddie',
+ message: "Wfh in the am. Having trouble getting ready due to back problems"
+}, {
+  author: 'Eric',
+  message: "Got a pretty bad cold this weekend. In the interest of not spreading it around the office I'm gonna be working from home today."
+}, {
+  author: 'Ilya',
+  message: "Good morning guys, I'm working from home today while the 405 is closed until tomorrow morning."
+}, {
+ author: 'Ilya',
+ message: "WFH today | thanks Obama"
+}, {
+  author: 'James',
+  message: "a/c repair company coming to the apartment today, so working from home."
+}, {
+  author: 'James',
+  message: "good morning. pretty sick so working from home today."
+}, {
+  author: 'Jeff',
+  message: "Working from home until or if my car gets out o’ the shop today."
+}, {
+  author: 'Jeff',
+  message: "Having a bit of trouble with my car. Into the shop we go. wfh until it’s fixed."
+}, {
+  author: 'Jon',
+  message: "hey all.  not feeling well today.  i’ll be WFH on and off."
+}, {
+  author: 'Kevan',
+  message: "WFH today, caught a bad cold over the weekend."
+}, {
+  author: 'Kevin',
+  message: "wfh today, I think my standing desk should be arriving"
 }, {
   author: 'Lucas',
   message: "wfh, plumber comin by"
@@ -118,24 +184,42 @@ WFH.constant('excuseConstant', [{
 }, {
   author: 'Lucas',
   message: "working from home today. have to go to the mechanic in the morning for a bit"
+}, {
+  author: 'Steve',
+  message: "hola dudes. WFH until the plumber comes and goes"
+}, {
+  author: 'Travis',
+  message: "Feeling well enough to work but don't want to expose you guys to whatever I got cause it's nasty. Gonna work from home today again."
+}, {
+  author: 'Travis',
+  message: "My family is still not well today. Also now I'm feeling on the brink of getting it (scratchy throat, etc...). Gonna work from home to spare the germs in case I am getting it."
+}, {
+  author: 'Trung',
+  message: "i have a dr appointment at 2pm today so i will be wfh"
+}, {
+  author: 'Trung',
+  message: "mechanic is suppose to drop off my car this afternoon so ill be working from home today"
+}, {
+  author: 'Trung',
+  message: "ill be working from home today because ill be visiting my mechanic, and should be getting my car today"
 }]);
 
 WFH.constant('imageConstant', [{
-  src:   'img/claus.png',
+  src: 'img/claus.png',
   title: 'Claus'
 }, {
-  src:   'img/horse.png',
+  src: 'img/horse.png',
   title: 'Horse'
 }, {
-  src:   'img/kite.png',
+  src: 'img/kite.png',
   title: 'Kite'
 }, {
-  src:   'img/pirate.png',
+  src: 'img/pirate.png',
   title: 'Pirate'
 }, {
-  src:   'img/skydiving.png',
+  src: 'img/skydiving.png',
   title: 'Skydiving'
 }, {
-  src:   'img/work.png',
+  src: 'img/work.png',
   title: 'Work'
 }]);
