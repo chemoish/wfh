@@ -1,0 +1,19 @@
+{
+  "name": "wfh",
+  "version": "0.0.1",
+  "homepage": "http://www.wfh.today",
+  "authors": [
+    "Carey Hinoki <carey.hinoki@gmail.com>"
+  ],
+  "description": "work from home",
+  "main": "index.html",
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

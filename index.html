@@ -33,7 +33,10 @@
 
       <ul class="actions">
         <li>
-          <a href="javascript:void(0)" class="card-cycle" ng-click="onCycleMessageClick()">Next</a>
+          <a clip-copy="onCopyMessageClick()">Copy</a>
+        </li>
+        <li>
+          <a ng-click="onCycleMessageClick()">Next</a>
         </li>
       </ul>
 
@@ -44,7 +47,9 @@
       </footer>
     </div>
 
-    <script src="js/vendor/angular.js"></script>
+    <script src="bower_components/angular/angular.min.js"></script>
+    <script src="bower_components/ng-clip/src/ngClip.js"></script>
+    <script src="bower_components/zeroclipboard/dist/ZeroClipboard.min.js"></script>
     <script src="js/script.js"></script>
   </body>
 </html>

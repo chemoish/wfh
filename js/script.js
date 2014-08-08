@@ -1,4 +1,15 @@
-WFH = angular.module('WFH', []);
+WFH = angular.module('WFH', [
+  'ngClipboard'
+]);
+
+WFH.config([
+  'ngClipProvider',
+  function (
+    ngClipProvider
+  ) {
+    ngClipProvider.setPath('bower_components/zeroclipboard/dist/ZeroClipboard.swf');
+  }
+]);
 
 WFH.controller('WfhController', [
   '$scope',
@@ -21,6 +32,10 @@ WFH.controller('WfhController', [
       $scope.excuse = getRandomItem(excuseConstant);
       $scope.image  = getRandomItem(imageConstant);
     })();
+
+    $scope.onCopyMessageClick = function () {
+      return $scope.excuse.message;
+    };
 
     $scope.onCycleMessageClick = function () {
       updateCard();
