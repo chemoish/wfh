@@ -13,13 +13,13 @@ body
 
 a
 {
-  color:           rgba(0, 0, 0, .2);
+  color:           rgba(0, 0, 0, 0.2);
   text-decoration: none;
 }
 
 a:hover
 {
-  color: rgba(0, 0, 0, .4);
+  color: rgba(0, 0, 0, 0.4);
 }
 
 /**
@@ -66,7 +66,7 @@ footer
 #card
 {
   background-color: #fff;
-  box-shadow:       0 2px 5px 1px rgba(0, 0, 0, .2);
+  box-shadow:       0 2px 5px 1px rgba(0, 0, 0, 0.2);
   padding:          10px;
 }
 
@@ -80,7 +80,7 @@ footer
 
 .card-message
 {
-  font-size:      2rem;
+  font-size:      1.75rem;
   margin:         0;
   padding-right:  175px;
   position:       relative;
@@ -91,7 +91,7 @@ footer
 .card-author
 {
   bottom:    0;
-  color:     rgba(0, 0, 0, .45);
+  color:     rgba(0, 0, 0, 0.45);
   font-size: 1.5rem;
   position:  absolute;
 }
@@ -106,7 +106,7 @@ footer
 {
   position: absolute;
   bottom:   0;
-  opacity:  .45;
+  opacity:  0.3;
   right:    0;
 }
 
@@ -136,7 +136,7 @@ footer
 
   header .title
   {
-    font-size: 3rem;
+    font-size: 2.75rem;
   }
 
   header .subtitle
@@ -147,6 +147,40 @@ footer
   .card-message
   {
     font-size: 1.75rem;
+  }
+
+  .card-author
+  {
+    font-size: 1.25rem;
+  }
+
+  .card-cycle
+  {
+    font-size: 1.5rem;
+  }
+}
+
+@media only screen and (max-width: 40em) {
+  body
+  {
+    padding-left:  20px;
+    padding-right: 20px;
+  }
+
+  header .title
+  {
+    font-size: 2.25rem;
+  }
+
+  header .subtitle
+  {
+    font-size: 0.85rem;
+  }
+
+  .card-message
+  {
+    font-size:     1.25rem;
+    padding-right: 125px;
   }
 
   .card-author
