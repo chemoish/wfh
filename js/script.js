@@ -44,11 +44,17 @@ WFH.controller('WfhController', [
 ]);
 
 WFH.constant('excuseConstant', [{
+  author: 'Abdel',
+  message: "Wfh today, cable guy is coming over to hook up the interwebs"
+}, {
   author: 'Adrian',
   message: "need to head home really quick, will be wfh for the rest of the day"
 }, {
   author: 'Aiman',
   message: "WFH in the morning, avoiding traffic."
+}, {
+  author: 'Andy',
+  message: "My wife's car wouldn't start this morning, so im taking calls from home before coming in"
 }, {
   author: 'Byron',
   message: "disease-ridden, but lucid. WFH"
@@ -184,6 +190,9 @@ WFH.constant('excuseConstant', [{
 }, {
   author: 'Lucas',
   message: "working from home today. have to go to the mechanic in the morning for a bit"
+}, {
+  author: 'Lucas',
+  message: "wfh as well. maintenance dudes are coming by to measure windows"
 }, {
   author: 'Steve',
   message: "hola dudes. WFH until the plumber comes and goes"
