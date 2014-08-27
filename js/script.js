@@ -53,6 +53,9 @@ WFH.constant('excuseConstant', [{
   author: 'Aiman',
   message: "WFH in the morning, avoiding traffic."
 }, {
+  author: 'Aiman',
+  message: "Team, I need to go to the court and have to take care of a traffic ticket, would come in or WFH depending on what time I get free."
+}, {
   author: 'Andy',
   message: "My wife's car wouldn't start this morning, so im taking calls from home before coming in"
 }, {
@@ -194,6 +197,9 @@ WFH.constant('excuseConstant', [{
   author: 'Lucas',
   message: "wfh as well. maintenance dudes are coming by to measure windows"
 }, {
+  author: 'Lucas',
+  message: "WFH today, pre approved"
+}, {
   author: 'Steve',
   message: "hola dudes. WFH until the plumber comes and goes"
 }, {
@@ -202,6 +208,12 @@ WFH.constant('excuseConstant', [{
 }, {
   author: 'Travis',
   message: "My family is still not well today. Also now I'm feeling on the brink of getting it (scratchy throat, etc...). Gonna work from home to spare the germs in case I am getting it."
+}, {
+  author: 'Travis',
+  message: "Car probs. WFH"
+}, {
+  author: 'Travis',
+  message: "My car is still in the shop. Wifey has 2nd vehicle this morning so I'm WFH."
 }, {
   author: 'Trung',
   message: "i have a dr appointment at 2pm today so i will be wfh"
