@@ -50,6 +50,12 @@ WFH.constant('excuseConstant', [{
   author: 'Adrian',
   message: "need to head home really quick, will be wfh for the rest of the day"
 }, {
+  author: 'Adrian',
+  message: "dentist appointment, wfh"
+}, {
+  author: 'Adrian',
+  message: "WFH because of construction at my apartment"
+}, {
   author: 'Aiman',
   message: "WFH in the morning, avoiding traffic."
 }, {
@@ -89,6 +95,9 @@ WFH.constant('excuseConstant', [{
   author: 'Christian',
   message: "FYI, ill be working from home tomorrow. my last deep cleaning dentist appointment. *much rejoicing*"
 }, {
+  author: 'Daniel',
+  message: "I am going to yield to peer-pressure and WFH"
+}, {
  author: 'Eddie',
  message: "Wfh in the am. Having trouble getting ready due to back problems"
 }, {
@@ -121,6 +130,9 @@ WFH.constant('excuseConstant', [{
 }, {
   author: 'Kevin',
   message: "wfh today, I think my standing desk should be arriving"
+}, {
+  author: 'Kevin',
+  message: "wfh for the morning, office in the afternoon after doctor's appt"
 }, {
   author: 'Lucas',
   message: "wfh, plumber comin by"
@@ -199,6 +211,9 @@ WFH.constant('excuseConstant', [{
 }, {
   author: 'Lucas',
   message: "WFH today, pre approved"
+}, {
+  author: 'Lucas',
+  message: "woke up with an upset stomach, gonna wfh"
 }, {
   author: 'Steve',
   message: "hola dudes. WFH until the plumber comes and goes"
