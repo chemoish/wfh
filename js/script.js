@@ -98,8 +98,11 @@ WFH.constant('excuseConstant', [{
   author: 'Daniel',
   message: "I am going to yield to peer-pressure and WFH"
 }, {
- author: 'Eddie',
- message: "Wfh in the am. Having trouble getting ready due to back problems"
+  author: 'Eddie',
+  message: "Wfh in the am. Having trouble getting ready due to back problems"
+}, {
+  author: 'Eddie',
+  message: "Tessa got out of the yard. I had to retrieve her and patch up the hole"
 }, {
   author: 'Eric',
   message: "Got a pretty bad cold this weekend. In the interest of not spreading it around the office I'm gonna be working from home today."
