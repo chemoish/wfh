@@ -74,17 +74,17 @@ WFH.constant('excuseConstant', [{
   author: 'Carey',
   message: "I will be working from home though because I have a wedding to go to in the after noon."
 }, {
- author: 'Carlos',
- message: "wfh today, feeling worse"
+  author: 'Carlos',
+  message: "wfh today, feeling worse"
 }, {
- author: 'Carlos',
- message: "WFH today, have some unexpected errands to run."
+  author: 'Carlos',
+  message: "WFH today, have some unexpected errands to run."
 }, {
- author: 'Caroline',
- message: "My nanny is sick , leaving at 1Pm and WFH"
+  author: 'Caroline',
+  message: "My nanny is sick , leaving at 1Pm and WFH"
 }, {
- author: 'Chris',
- message: "wfh today, still sick"
+  author: 'Chris',
+  message: "wfh today, still sick"
 }, {
   author: 'Chris',
   message: "Just a heads up I am out sick today but am working from home"
@@ -110,8 +110,8 @@ WFH.constant('excuseConstant', [{
   author: 'Ilya',
   message: "Good morning guys, I'm working from home today while the 405 is closed until tomorrow morning."
 }, {
- author: 'Ilya',
- message: "WFH today | thanks Obama"
+  author: 'Ilya',
+  message: "WFH today | thanks Obama"
 }, {
   author: 'James',
   message: "a/c repair company coming to the apartment today, so working from home."
